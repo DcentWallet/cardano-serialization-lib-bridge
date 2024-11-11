@@ -9,13 +9,13 @@
       "node": {
         "types": "./node.d.ts",
         "require": "./node.cjs",
-        "default:": "./node.cjs"
+        "default": "./node.cjs"
       },
       "default": {
         "types": "./browser.d.ts",
         "import": "./browser.mjs",
         "require": "./node.cjs",
-        "default:": "./browser.mjs"
+        "default": "./browser.mjs"
       }
     }
   },
